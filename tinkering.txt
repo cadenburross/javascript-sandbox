@@ -1,1 +1,9 @@
+<!-- this is the document ready function -->
 
+<script>
+  $(document).ready(function() {
+
+  });
+</script>
+
+All jQuery functions start with a $, usually referred to as a dollar sign operator, or simply as bling.
