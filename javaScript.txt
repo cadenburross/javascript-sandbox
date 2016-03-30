@@ -1,1 +1,13 @@
 
+var defines the variable
+
+camelCase is correct 
+
+"increment" i = i + 1;  > i++ , "decrement" i--;
+
+The "remainder" operator % gives the remainder of the division of two numbers.
+
+In mathematics, a number can be checked even or odd by checking the remainder of the division of the number by2. 
+17 % 2 = 1 (17 is Odd)  -  48 % 2 = 0 (48 is Even)
+
++= handles compound assignment 
