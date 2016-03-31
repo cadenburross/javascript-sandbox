@@ -11,3 +11,44 @@ In mathematics, a number can be checked even or odd by checking the remainder of
 17 % 2 = 1 (17 is Odd)  -  48 % 2 = 0 (48 is Even)
 
 += handles compound assignment 
+
+
+/* This Converts Celsius to Fahrenheit */
+
+function convert(celsius) {
+  // Only change code below this line
+var fahrenheit = 32 + 9/5 * celsius;   
+
+  // Only change code above this line
+  if ( typeof fahrenheit !== 'undefined' ) {
+    return fahrenheit;
+  } else {
+    return 'fahrenheit not defined';
+  }
+}
+
+convert(30);
+
+
+To escape quotes, use \infront of the quote
+Quotes are not the only characters that can be escaped inside a string. Here is a table of common escape sequences:
+
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	new line
+\r	carriage return
+\t	tab
+\b	backspace
+\f	form feed
+Note that the backslash itself must be escaped in order to display as a backslash.
+
+add strings using + or add lines of strings using +=
+
+
+return a string's character length using .length
+
+
+
+
