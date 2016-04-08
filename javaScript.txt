@@ -51,4 +51,22 @@ return a string's character length using .length
 
 
 
+Equality, strict equality, inequality == === !=
+
+<!-- Return a value according to an equality statement -->
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+testNotEqual(99);
+<!-- returns "Equal" -->
+
+> and < are another way to return a value 
+>= is another
+
 
