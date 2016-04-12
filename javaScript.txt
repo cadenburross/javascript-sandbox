@@ -50,23 +50,78 @@ add strings using + or add lines of strings using +=
 return a string's character length using .length
 
 
+<!-- EQUALITY STATEMNETS -->
 
-Equality, strict equality, inequality == === !=
+            Equality, strict equality, inequality == === !=
+            
+            <!-- Return a value according to an equality statement -->
+            // Setup
+            function testNotEqual(val) {
+              if (val != 99) { // Change this line
+                return "Not Equal";
+              }
+              return "Equal";
+            }
+            
+            // Change this value to test
+            testNotEqual(99);
+            
+            <!-- returns "Equal" -->
+            
+            <!-- greater than, less than, equal to -->
+            > and < are another way to return a value 
+            >= <= are clear 
 
-<!-- Return a value according to an equality statement -->
-// Setup
-function testNotEqual(val) {
-  if (val != 99) { // Change this line
-    return "Not Equal";
-  }
-  return "Equal";
-}
 
-// Change this value to test
-testNotEqual(99);
-<!-- returns "Equal" -->
+<!-- LOGICAL AND -->
 
-> and < are another way to return a value 
->= is another
+        Sometimes you will need to test more than one thing at a time. The logical and operator (&&) returns true if and only if the operands to the left and right of it are true.
+        
+        The same effect could be achieved by nesting an if statement inside another if:
+        
+        if (num > 5) {
+          if (num < 10) {
+            return "Yes";
+          }
+        }
+        return "No";
+        will only return "Yes" if num is between 6 and 9 (6 and 9 included). The same logic can be written as:
+        
+        if (num > 5 && num < 10) {
+          return "Yes";
+        }
+        return "No";
+
+
+<!-- LOGICAL OR -->
+
+    The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+    
+    The pattern below should look familiar from prior waypoints:
+    
+    if (num > 10) {
+      return "No";
+    }
+    if (num < 5) {
+      return "No";
+    }
+    return "Yes";
+    will return "Yes" only if num is between 5 and 10 (5 and 10 included). The same logic can be written as:
+
+
+<!-- ELSE STATEMENT -->
+        function testNotEqual(val) {
+              if (val > 99) { 
+                return "Greater than 99";
+              } else { 
+              return "Less than 99";
+            }
+            
+<!-- IF ELSE check in ORDER -->
+
+<!-- DONT FORGET TO CAPITALIZE -->
+
+
+
 
 
