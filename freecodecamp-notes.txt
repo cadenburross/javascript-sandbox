@@ -177,7 +177,21 @@ function caseInSwitch(val) {
 
 caseInSwitch(4);
 
+// DEFAULT can be added after the final break to define a statemnt that accounts for undefined "cases"
+
+// cases can be strung together to output the same result
+
 <!-- end switch -->
+
+
+
+<!-- RETURN statements -->
+
+// can be used instead of if/else - as the return can be true or false 
+
+
+
+
 
 
 
